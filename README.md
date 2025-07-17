@@ -1,6 +1,6 @@
 # ESP32-Attack-Defend-System
 
-This code, written for an ESP32 microcontroller, implements a Wi-Fi MAC address collection and telemetry system with privacy-enhancing features, making it suitable for a cybersecurity project focused on network reconnaissance, privacy, or threat intelligence gathering.
+**This code, written for an ESP32 microcontroller, implements a Wi-Fi MAC address collection and telemetry system with privacy-enhancing features, making it suitable for a cybersecurity project focused on network reconnaissance, privacy, or threat intelligence gathering.**
 
 
 #include <WiFi.h>
@@ -247,7 +247,7 @@ Power Optimization: For long-term deployment, optimize power consumption.
 
 Legal and Ethical Considerations: Discuss the ethical implications of MAC address collection, privacy concerns, and compliance with regulations (e.g., GDPR) in a real-world scenario.
 
-In summary, this ESP32 code is a practical demonstration of a Wi-Fi reconnaissance tool with built-in techniques to enhance its stealth and operational security. It's an excellent starting point for a cybersecurity project exploring topics like network monitoring, device enumeration, privacy implications of wireless technologies, and basic data exfiltration methods.
+**In summary, this ESP32 code is a practical demonstration of a Wi-Fi reconnaissance tool with built-in techniques to enhance its stealth and operational security. It's an excellent starting point for a cybersecurity project exploring topics like network monitoring, device enumeration, privacy implications of wireless technologies, and basic data exfiltration methods.**
 
 
 **This tool is made for a Red-Teamer (DO NOT USE FOR ILLEGAL REASONS)**
@@ -658,4 +658,4 @@ Network Forensics: The increased difficulty in analyzing traffic from such a dev
 
 Operational Security (OpSec): The importance of not leaving a predictable digital footprint.
 
-This code moves beyond basic reconnaissance into demonstrating sophisticated covert communication, camouflage, and anti-forensic techniques within a network environment.
+**This code moves beyond basic reconnaissance into demonstrating sophisticated covert communication, camouflage, and anti-forensic techniques within a network environment.**
