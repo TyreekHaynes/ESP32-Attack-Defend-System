@@ -143,7 +143,7 @@ void loop() {
 
 Here's a breakdown of what the code does, suitable for a cybersecurity project explanation:
 
-Project Goal/Purpose:
+**Project Goal/Purpose:**
 
 The primary goal of this project is to passively collect information about Wi-Fi devices in the vicinity by sniffing Wi-Fi management frames (specifically, probe requests and beacons) and extracting their MAC addresses and signal strengths (RSSI). This data is then periodically transmitted to a central collector for analysis. Crucially, the system incorporates features to enhance its stealth and privacy during operation.
 
