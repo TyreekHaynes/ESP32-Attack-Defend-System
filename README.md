@@ -504,7 +504,7 @@ void loop() {
 
 Here's a breakdown of its components and their cybersecurity relevance:
 
-Project Goal/Purpose:
+**Project Goal/Purpose:**
 
 The primary objective of this project is to simulate a stealthy network presence that periodically transmits obfuscated telemetry while blending in with normal network traffic. It aims to evade detection by employing various randomization, obfuscation, and mimicry techniques, making it a challenging target for network defenders. This goes beyond simple reconnaissance to active covert communication and evasion.
 
@@ -514,7 +514,7 @@ Enhanced MAC Randomization (generateAdvancedRandomMAC)
 
 Technique: Randomizes not only the MAC address but also the "locally administered" bit (0x02 or 0x06) in the first octet. It uses the ESP32's hardware RNG (esp_fill_random) for better entropy and, critically, introduces a 30% chance to mimic common vendor OUI patterns (e.g., 0xAE, 0xEF) in subsequent octets.
 
-Cybersecurity Relevance:
+**Cybersecurity Relevance:**
 
 Advanced Evasion: This is a more sophisticated form of MAC spoofing. By mimicking common vendor patterns, the device attempts to appear as a legitimate, common IoT device or consumer electronics product, making it harder for network access control (NAC) systems or monitoring tools to flag it as "unusual" based purely on MAC addresses.
 
@@ -642,7 +642,7 @@ State Reset: Clears volatile memory, making in-memory forensic analysis more dif
 
 Evading Long-Term Baselines: Disrupts continuous monitoring and profiling, as the device's uptime and state are regularly reset.
 
-Overall Cybersecurity Implications for a Project:
+**Overall Cybersecurity Implications for a Project:**
 
 This code provides a robust foundation for a cybersecurity project that explores:
 
